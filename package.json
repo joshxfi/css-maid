@@ -1,13 +1,14 @@
 {
   "name": "css-maid",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CSS Maid is a tool for React.js that helps clean up & reset default css! It resets default padding, remove text-decoration on <a> tag, and many more!",
   "main": "lib/Maid.js",
   "scripts": {
     "build": "tsc -p ."
   },
   "keywords": [
-    "css-maid"
+    "css-maid",
+    "css reset react"
   ],
   "author": "Josh Daniel Bañares",
   "license": "MIT",
