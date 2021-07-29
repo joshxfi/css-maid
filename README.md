@@ -1,14 +1,20 @@
 # CSS Maid 🧹
-![css-maid logo](https://raw.githubusercontent.com/joshxfi/green-calculator/master/public/cssmaid.png)
+![css-maid logo](https://raw.githubusercontent.com/joshxfi/green-calculator/master/public/css-maid-logo.png)
+## What is it?
+`CSS Maid` is a tool for `React.js` that helps clean up default css! It resets default padding, remove text-decoration on `<a>` tag, and many more! This tool was built using `emotion` & `typescript`!
+
 ## Installation
 ```shell
+# install with npm
 npm i css-maid
+
+# install with yarn
+yarn add css-maid
 ```
 
 ## Quick Start
 - Javascript
 ```js
-// Javascript
 import Maid from 'css-maid'
 
 const Component = () => {
@@ -21,7 +27,6 @@ const Component = () => {
 ```
 - TypeScript
 ```js
-// Typescript
 import React from 'react'
 import Maid from 'css-maid'
 
