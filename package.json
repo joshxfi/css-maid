@@ -10,6 +10,14 @@
     "css-maid",
     "css reset react"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshxfi/css-maid"
+  },
+  "bugs": {
+    "url": "https://github.com/joshxfi/css-maid/issues"
+  },
+  "homepage": "https://github.com/joshxfi/css-maid",
   "author": "Josh Daniel Bañares",
   "license": "MIT",
   "dependencies": {
