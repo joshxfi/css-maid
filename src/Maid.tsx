@@ -11,6 +11,7 @@ const Maid: React.FC = () => {
           * {
             padding: 0;
             margin: 0;
+            -webkit-box-sizing: border-box;
             box-sizing: border-box;
             -webkit-tap-highlight-color: transparent;
             font-family: inherit;

@@ -1,6 +1,6 @@
 {
   "name": "css-maid",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "CSS Maid is a tool for React.js that helps clean up & reset default css! It resets default padding, remove text-decoration on <a> tag, and many more!",
   "main": "lib/Maid.js",
   "scripts": {
