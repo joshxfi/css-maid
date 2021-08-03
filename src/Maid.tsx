@@ -38,11 +38,6 @@ const Maid: React.FC = () => {
           textarea {
             resize: none;
           }
-
-          table {
-            border-collapse: collapse;
-            border-spacing: 0;
-          }
         `}
       />
     </>

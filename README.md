@@ -1,9 +1,15 @@
 # CSS Maid 🧹
+
 ![css-maid logo](https://raw.githubusercontent.com/joshxfi/green-calculator/master/public/css-maid-logo.png)
+
 ## What is it?
+
+> TL;DR &rarr; `CSS-Maid` is a `CSS` reset for `React.js`!
+
 `CSS Maid` is a tool for `React.js` that helps clean up & reset default css! It resets default padding, remove text-decoration on `<a>` tag, and many more! This tool was built using `emotion` & `typescript`!
 
 ## Installation
+
 ```shell
 # install with npm
 npm i css-maid
@@ -13,9 +19,11 @@ yarn add css-maid
 ```
 
 ## Quick Start
+
 - Javascript
+
 ```js
-import Maid from 'css-maid'
+import Maid from "css-maid";
 
 const App = () => {
   return (
@@ -26,16 +34,18 @@ const App = () => {
         <li>CSS</li>
         <li>Maid</li>
       </ul>
-      
+
       <Maid />
     </div>
-  )
-}
+  );
+};
 ```
+
 - TypeScript
+
 ```js
-import React from 'react'
-import Maid from 'css-maid'
+import React from "react";
+import Maid from "css-maid";
 
 const App: React.FC = () => {
   return (
@@ -46,14 +56,15 @@ const App: React.FC = () => {
         <li>CSS</li>
         <li>Maid</li>
       </ul>
-      
+
       <Maid />
     </div>
-  )
-}
+  );
+};
 ```
 
 ## Features
+
 ```css
 * {
   padding: 0;
@@ -71,20 +82,17 @@ a {
   text-decoration: none;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-input, textarea {
+input,
+textarea {
   outline: none;
 }
 
 textarea {
   resize: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
 }
 ```
