@@ -4,9 +4,7 @@
 
 ## What is it?
 
-> TL;DR &rarr; `CSS-Maid` is a `CSS` reset for `React.js`!
-
-`CSS Maid` is a tool for `React.js` that helps clean up & reset default css! It resets default padding, remove text-decoration on `<a>` tag, and many more! This tool was built using `emotion` & `typescript`!
+`CSS Maid` is a tool for that helps clean up & reset default css! It resets default padding, remove text-decoration on anchor tag, and many more!
 
 ## Installation
 
@@ -20,79 +18,36 @@ yarn add css-maid
 
 ## Quick Start
 
-- Javascript
-
-```js
-import Maid from "css-maid";
-
-const App = () => {
-  return (
-    <div>
-      <a href='#'>Hello World!</a>
-      <ul>
-        <li>React</li>
-        <li>CSS</li>
-        <li>Maid</li>
-      </ul>
-
-      <Maid />
-    </div>
-  );
-};
-```
-
-- TypeScript
-
-```js
-import React from "react";
-import Maid from "css-maid";
-
-const App: React.FC = () => {
-  return (
-    <div>
-      <a href='#'>Hello World!</a>
-      <ul>
-        <li>React</li>
-        <li>CSS</li>
-        <li>Maid</li>
-      </ul>
-
-      <Maid />
-    </div>
-  );
-};
-```
+***this is a test version***
 
 ## Features
 
 ```css
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
-  font-family: inherit;
-}
-
-body {
-  line-height: 1;
-}
-
-a {
-  text-decoration: none;
-}
-
-ol,
-ul {
-  list-style: none;
-}
-
-input,
-textarea {
-  outline: none;
-}
-
-textarea {
-  resize: none;
-}
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    font-family: inherit;
+    vertical-align: baseline;
+    font-size: 100%;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+  }
+  
+  input,
+  textarea {
+    outline: none;
+  }
+  
+  textarea {
+    resize: none;
+  }
 ```
