@@ -1,6 +1,6 @@
 {
   "name": "css-maid",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "CSS Maid is a tool that helps clean up & reset default css! It resets default padding, remove text-decoration on anchor tag, and many more!",
   "main": "Maid.css",
   "keywords": [

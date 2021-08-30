@@ -1,4 +1,7 @@
 # CSS Maid 🧹
+<a href='https://www.npmjs.com/package/css-maid' target='_blank'>![](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)</a>
+<a href='https://yarnpkg.com/package/css-maid' target='_blank'>![](https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white)</a>
+![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ![css-maid logo](https://raw.githubusercontent.com/joshxfi/green-calculator/master/public/css-maid-logo.png)
 
@@ -18,7 +21,19 @@ yarn add css-maid
 
 ## Quick Start
 
-***this is a test version***
+- React
+
+```js
+import "css-maid";
+
+const App = () => {
+  return (
+    <div>
+      <h1>Yes, it's that easy!</h1>
+    </div>
+  );
+};
+```
 
 ## Features
 
