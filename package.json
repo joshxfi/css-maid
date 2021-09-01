@@ -1,11 +1,12 @@
 {
   "name": "css-maid",
-  "version": "2.0.0",
-  "description": "CSS Maid is a tool that helps clean up & reset default css! It resets default padding, remove text-decoration on anchor tag, and many more!",
+  "version": "2.0.1",
+  "description": "CSS Maid is a tool for that helps clean up & reset default css! It resets default padding & margin, remove text-decoration on anchor tag, and many more!",
   "main": "Maid.css",
   "keywords": [
     "css-maid",
-    "css reset"
+    "css reset",
+    "react"
   ],
   "repository": {
     "type": "git",
